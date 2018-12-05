@@ -4,10 +4,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/akm/validator"
 	english "github.com/go-playground/locales/en"
 	ut "github.com/go-playground/universal-translator"
 	. "gopkg.in/go-playground/assert.v1"
-	"gopkg.in/go-playground/validator.v9"
 )
 
 func TestTranslations(t *testing.T) {
